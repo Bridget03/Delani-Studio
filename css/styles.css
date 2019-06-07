@@ -4,3 +4,12 @@
     text-align: center;
     color: white;
 }
+.aboutus{
+    text-align: center;
+    margin-top: 5%;
+}
+.services{
+    background-image: url("s_image.jpg");
+    color: white;
+    text-align: center;
+}
