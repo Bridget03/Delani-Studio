@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Delani Studio</title>
 </head>
 <body>
@@ -39,9 +41,9 @@
             <h4><strong>WHAT WE DO</strong></h4><br><br>
             <div class="row">
                 <div class="col-4">
-                    <img src="services_icons/design_icon.png" alt="design of a pen"><br>
+                    <img class="image1" src="services_icons/design_icon.png" alt="design of a pen"><br>
                     <h6><strong>DESIGN</strong></h6>
-                    <p>Our design serices offer a full range of services<br>
+                    <p class="p1">Our design serices offer a full range of services<br>
                        including brand strategy, interaction and visual design<br>
                        and user experience testing<br><br>
                        Throughout your projects, our designers create and<br>
@@ -50,18 +52,18 @@
                        is what is needed.</p>
                 </div>
                 <div class="col-4">
-                    <img src="services_icons/dev_icon.png" alt="development image"><br>
+                    <img class="image2" src="services_icons/dev_icon.png" alt="development image"><br>
                     <h6><strong>DEVELOPMENT</strong></h6>
-                    <p>All engineers are fluent in the latest enterprise, mobile<br>
+                    <p class="p2">All engineers are fluent in the latest enterprise, mobile<br>
                        and web development technologies<br><br>
                        They collaborate with your team to write and improve<br>
                        code on a daily basis, using proven practices such as,<br>
                        test-driven development and pair programming</p>
                 </div>
                 <div class="col-4">
-                    <img src="services_icons/product_icon.png" alt="Product Management"><br>
+                    <img class="image3" src="services_icons/product_icon.png" alt="Product Management"><br>
                     <h6><strong>PRODUCT MANAGEMENT</strong></h6>
-                    <p>Planning and development is very iterative.Because we are<br>
+                    <p class="p3">Planning and development is very iterative.Because we are<br>
                        constantly coding and testing, the products we build are<br>
                        always ready to go live<br><br>
                        This iterative process allows for changes as a business<br>
@@ -124,4 +126,28 @@
     <br>
     <h6>DELANI STUDIO<br>2019</h6>
 </footer>
+
+<script>
+        $(document).ready(function() {
+    $(".image1").click(function() {
+      $(".p1").toggle();
+     
+    });
+  });
+    
+  $(document).ready(function() {
+    $(".image2").click(function() {
+      $(".p2").toggle();
+     
+    });
+  });
+  $(document).ready(function() {
+    $(".image3").click(function() {
+      $(".p3").toggle();
+     
+    });
+  });
+    
+    
+    </script>
 </html>
