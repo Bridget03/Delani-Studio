@@ -37,6 +37,9 @@ body{
 .portfolio{
     margin-top: 2%;
 }
+.portfolio img{
+    padding: 10px;
+}
 .contact{
     margin-top: 5%;
     text-align: center;
@@ -66,3 +69,25 @@ h6{
 .transparent-input{
     background-color: transparent;
 }
+#imageOne
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#textOne {
+    color: black;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-family: Arial, Verdana;
+    color: #000;
+    font-size: 5em;
+    font-weight: bold;
+    text-shadow: 1px 1px #fff;
+}
+.image{
+    width: 100%;
+}
+
